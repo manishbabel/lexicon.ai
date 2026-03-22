@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #09090b;
+  --color-surface: #131316;
+  --color-surface-2: #1c1c21;
+  --color-surface-3: #252529;
+  --color-border: #2e2e33;
+  --color-text: #fafafa;
+  --color-text-2: #a1a1aa;
+  --color-text-3: #71717a;
+  --color-accent: #6366f1;
+  --color-accent-muted: rgba(99, 102, 241, 0.15);
+  --color-term: #34d399;
+  --color-term-muted: rgba(52, 211, 153, 0.12);
+  --color-insight: #60a5fa;
+  --color-insight-muted: rgba(96, 165, 250, 0.12);
+  --color-procon: #fbbf24;
+  --color-procon-muted: rgba(251, 191, 36, 0.12);
+  --color-pattern: #a78bfa;
+  --color-pattern-muted: rgba(167, 139, 250, 0.12);
+  --color-question: #fb923c;
+  --color-question-muted: rgba(251, 146, 60, 0.12);
+  --color-danger: #f87171;
+  --color-success: #34d399;
+
+  --font-sans: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    system-ui, sans-serif;
+  --font-mono: "SF Mono", "JetBrains Mono", "Fira Code", monospace;
+}
+
+.light {
+  --color-bg: #fafafa;
+  --color-surface: #ffffff;
+  --color-surface-2: #f4f4f5;
+  --color-surface-3: #e4e4e7;
+  --color-border: #e4e4e7;
+  --color-text: #18181b;
+  --color-text-2: #52525b;
+  --color-text-3: #a1a1aa;
+  --color-accent: #6366f1;
+  --color-accent-muted: rgba(99, 102, 241, 0.1);
+  --color-term: #059669;
+  --color-term-muted: rgba(5, 150, 105, 0.1);
+  --color-insight: #2563eb;
+  --color-insight-muted: rgba(37, 99, 235, 0.1);
+  --color-procon: #d97706;
+  --color-procon-muted: rgba(217, 119, 6, 0.1);
+  --color-pattern: #7c3aed;
+  --color-pattern-muted: rgba(124, 58, 237, 0.1);
+  --color-question: #ea580c;
+  --color-question-muted: rgba(234, 88, 12, 0.1);
+  --color-danger: #dc2626;
+  --color-success: #059669;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  #root {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-border);
+    border-radius: 2px;
+  }
+}
