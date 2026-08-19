@@ -1,0 +1,6 @@
+{
+  "latest_stable": "2026.7.1",
+  "latest_beta": "2026.8.1-beta.2",
+  "last_checked": "2026-08-19",
+  "notes": "First check; baseline was 2026.5.27 / 2026.5.28-beta.2 (no prior state.json). Extended-stable 2026.6.34 also notable."
+}
