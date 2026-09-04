@@ -1,0 +1,6 @@
+{
+  "latest_stable": "2026.9.1",
+  "latest_beta": "2026.5.28-beta.2",
+  "last_checked": "2026-09-04",
+  "notes": "Beta line unchanged from baseline. Stable line advanced through 2026.8.1 → 2026.8.2 → 2026.9.1 since baseline 2026.5.27. See 2026-09-04-stable-trio.md for digest."
+}
