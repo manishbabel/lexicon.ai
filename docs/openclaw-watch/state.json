@@ -1,0 +1,6 @@
+{
+  "latest_stable": "2026.9.2",
+  "latest_beta": "2026.5.28-beta.2",
+  "last_checked": "2026-09-06",
+  "notes": "No beta newer than baseline found in this check. latest_beta preserved from baseline."
+}
