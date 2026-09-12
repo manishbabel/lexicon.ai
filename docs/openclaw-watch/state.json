@@ -1,0 +1,6 @@
+{
+  "latest_stable": "2026.9.4",
+  "latest_beta": "2026.6.35",
+  "last_checked": "2026-09-12",
+  "notes": "2026.6.35 is an Extended Stable (LTS) release, treated as the latest beta/LTS track. Stable track jumped from 2026.5.27 to 2026.9.4 across multiple intermediate builds."
+}
