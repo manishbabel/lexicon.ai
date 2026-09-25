@@ -1,6 +1,6 @@
 {
-  "latest_stable": "2026.5.27",
-  "latest_beta": "2026.5.28-beta.2",
-  "last_checked": "2026-09-23",
-  "notes": "Baseline versions. Primary source (github.com/openclaw/openclaw) returned unverifiable data (tag pages 404); secondary sources blocked by network policy. No digest written."
+  "latest_stable": "2026.9.6",
+  "latest_beta": "2026.9.1-beta.1",
+  "last_checked": "2026-09-25",
+  "notes": "2026.9.6 is latest stable (Sep 23 2026). Latest known beta is 2026.9.1-beta.1 (Aug 24 2026) — stable has overtaken the beta line; no newer beta tag surfaced. docs.openclaw.ai and releasebot.io blocked by egress. Digest written: 2026-09-25-openclaw-2.0-and-security-hardening.md"
 }
