@@ -1,6 +1,7 @@
 {
-  "latest_stable": "2026.5.27",
-  "latest_beta": "2026.5.28-beta.2",
-  "last_checked": "2026-09-23",
-  "notes": "Baseline versions. Primary source (github.com/openclaw/openclaw) returned unverifiable data (tag pages 404); secondary sources blocked by network policy. No digest written."
+  "latest_stable": "2026.9.8",
+  "latest_beta": "2026.9.8",
+  "latest_ext_stable": "2026.8.35",
+  "last_checked": "2026-10-04",
+  "notes": "Current-track: 2026.9.8 (2026-10-03). Extended-stable: 2026.8.35 (2026-10-02). Digest written: docs/openclaw-watch/2026-10-04-runtime-streaming-cron-isolation.md. Top patterns: incremental streaming, worker I/O offloading, cron tool allowlist isolation."
 }
