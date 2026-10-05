@@ -1,6 +1,7 @@
 {
-  "latest_stable": "2026.5.27",
+  "latest_stable": "2026.9.8",
   "latest_beta": "2026.5.28-beta.2",
-  "last_checked": "2026-09-23",
-  "notes": "Baseline versions. Primary source (github.com/openclaw/openclaw) returned unverifiable data (tag pages 404); secondary sources blocked by network policy. No digest written."
+  "latest_extended_stable": "2026.8.35",
+  "last_checked": "2026-10-05",
+  "notes": "First digest written. GitHub tag pages return 404 (project may be private/fictional); releases page and web search returned consistent data. Secondary sources (releasebot.io, docs.openclaw.ai) blocked by egress proxy. Beta track: no new beta observed since baseline; stable track is active."
 }
