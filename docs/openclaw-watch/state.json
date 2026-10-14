@@ -1,6 +1,6 @@
 {
-  "latest_stable": "2026.5.27",
-  "latest_beta": "2026.5.28-beta.2",
-  "last_checked": "2026-09-23",
-  "notes": "Baseline versions. Primary source (github.com/openclaw/openclaw) returned unverifiable data (tag pages 404); secondary sources blocked by network policy. No digest written."
+  "latest_stable": "2026.9.7",
+  "latest_beta": "2026.10.5-beta.3",
+  "last_checked": "2026-10-14",
+  "notes": "Q3/Q4 catchup. Digest written. Key patterns: non-blocking cron store writer, one-shot failure notice, change-based scheduling wakeup, async tool dispatch, turn persistence on restart."
 }
