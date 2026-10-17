@@ -1,6 +1,6 @@
 {
-  "latest_stable": "2026.5.27",
-  "latest_beta": "2026.5.28-beta.2",
-  "last_checked": "2026-09-23",
-  "notes": "Baseline versions. Primary source (github.com/openclaw/openclaw) returned unverifiable data (tag pages 404); secondary sources blocked by network policy. No digest written."
+  "latest_stable": "2026.10.4",
+  "latest_beta": "2026.10.10-beta.1",
+  "last_checked": "2026-10-17",
+  "notes": "Stable advanced from 2026.5.27 to 2026.10.4. Beta advanced from 2026.5.28-beta.2 to 2026.10.10-beta.1. Digest written: docs/openclaw-watch/2026-10-17-v10.4-catchup.md. Top patterns: terminal refusal handling (provider.py), single failover owner (router.py), cron quarantine (scheduler.py), fenced memory commits (memory/manager.py)."
 }
