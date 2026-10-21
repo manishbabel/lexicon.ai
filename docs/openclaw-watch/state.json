@@ -1,6 +1,6 @@
 {
-  "latest_stable": "2026.5.27",
-  "latest_beta": "2026.5.28-beta.2",
-  "last_checked": "2026-09-23",
-  "notes": "Baseline versions. Primary source (github.com/openclaw/openclaw) returned unverifiable data (tag pages 404); secondary sources blocked by network policy. No digest written."
+  "latest_stable": "2026.10.5",
+  "latest_beta": "2026.10.10-beta.3",
+  "last_checked": "2026-10-21",
+  "notes": "Caught up from 2026.5.27/2026.5.28-beta.2 baseline. Major: OpenClaw 2.0 (v2026.8.1) — Dreaming, silent flush before compaction, QMD retired in favour of SQLite memory. 2026.9.33 LTS adds interrupted-turn resumption. 2026.10.10-beta.x adds PostgreSQL store backend, hook coverage in standalone sessions, multi-file patch safety. docs.openclaw.ai and releasebot.io unreachable; data sourced from GitHub releases page + web search aggregates."
 }
