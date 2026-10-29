@@ -1,6 +1,6 @@
 {
-  "latest_stable": "2026.5.27",
-  "latest_beta": "2026.5.28-beta.2",
-  "last_checked": "2026-09-23",
-  "notes": "Baseline versions. Primary source (github.com/openclaw/openclaw) returned unverifiable data (tag pages 404); secondary sources blocked by network policy. No digest written."
+  "latest_stable": "2026.10.8",
+  "latest_beta": "2026.10.10-beta.4",
+  "last_checked": "2026-10-29",
+  "notes": "Digest written: 2026-10-29-oct-security-runtime.md. Top picks: hook token isolation (src/engine/hooks/registry.py + src/cron/scheduler.py) and cron-waits-for-tool-results (src/cron/scheduler.py). Sources: GitHub releases page (accessible), docs.openclaw.ai and releasebot.io blocked by network policy."
 }
