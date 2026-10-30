@@ -1,6 +1,6 @@
 {
-  "latest_stable": "2026.5.27",
-  "latest_beta": "2026.5.28-beta.2",
-  "last_checked": "2026-09-23",
-  "notes": "Baseline versions. Primary source (github.com/openclaw/openclaw) returned unverifiable data (tag pages 404); secondary sources blocked by network policy. No digest written."
+  "latest_stable": "2026.10.9",
+  "latest_beta": "2026.10.10-beta.5",
+  "last_checked": "2026-10-30",
+  "notes": "Stable 2026.10.9 (2026-10-29): security deps, workspace tool scoping, agent/memory recovery. Beta 2026.10.10-beta.5 (2026-10-30): cron missed-slot fix, Gateway streaming resilience, credential hardening. Digest: 2026-10-30-security-cron-recovery.md."
 }
