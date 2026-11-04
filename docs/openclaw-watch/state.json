@@ -1,6 +1,6 @@
 {
-  "latest_stable": "2026.5.27",
-  "latest_beta": "2026.5.28-beta.2",
-  "last_checked": "2026-09-23",
-  "notes": "Baseline versions. Primary source (github.com/openclaw/openclaw) returned unverifiable data (tag pages 404); secondary sources blocked by network policy. No digest written."
+  "latest_stable": "2026.10.10",
+  "latest_beta": "2026.11.5-beta.1",
+  "last_checked": "2026-11-04",
+  "notes": "Digest written: 2026-11-04-openclawv2-postgres-knowledge-scribes.md. Top picks: decision model routing (src/engine/llm/router.py), background memory consolidation (src/engine/memory/episodic.py). PostgreSQL backend and Knowledge Scribes in beta — watch for stable cut."
 }
